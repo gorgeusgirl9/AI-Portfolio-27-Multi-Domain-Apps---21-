@@ -24,7 +24,6 @@ Tüm projelere ve çalışan modellere aşağıdaki linkten ulaşabilirsiniz:
 | 18 | AI Unit Converter ⚖️ | AI Agents | ✅ Running |
 | 19 | Weather Trend Analysis 🌦️ | Data Scraping | ✅ Running |
 | 20 | Miscellaneous Models 📊 | Mixed | ✅ Running |
-| 21 | Fruit Vegetable CNN 🍎 | Deep Learning | ⏸️ Paused |
 | 22 | AI Career Matcher 💼 | NLP | ⏸️ Paused |
 | 23 | AI Content Recommender 🎬 | Recommendation | ⏸️ Paused |
 | 24 | AI Handwritten Digit Recognizer 🔢 | Deep Learning | ⏸️ Paused |
