@@ -1,1 +1,0 @@
-https://huggingface.co/spaces/gorgeus/AI_Handwritten_Digit_Recognizer_Deep_Learning
