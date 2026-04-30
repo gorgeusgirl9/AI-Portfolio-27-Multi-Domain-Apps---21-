@@ -1,0 +1,37 @@
+import streamlit as st
+import joblib
+import numpy as np
+
+# Load the trained classification model
+# Model dosyasının adının tam olarak 'diyabet_model.pkl' olduğundan emin ol
+model = joblib.load('diyabet_model.pkl')
+
+# Page Configuration
+st.set_page_config(page_title="Diabetes Risk Predictor", page_icon="🩺")
+
+st.title("🩺 Diabetes Risk Prediction")
+st.write("### Project 2: Classification Analysis")
+st.write("Enter the patient's clinical data to predict the risk of diabetes.")
+
+# Input fields with English labels
+pregnancies = st.number_input("Number of Pregnancies", min_value=0, max_value=20, value=0)
+glucose = st.slider("Glucose Level (mg/dL)", 0, 200, 100)
+bmi = st.number_input("Body Mass Index (BMI)", 0.0, 70.0, 25.0)
+age = st.slider("Age", 0, 100, 30)
+
+# Calculate Prediction
+if st.button("Analyze Risk"):
+    # Creating the input array with 8 features
+    # Not: Model 8 özellik beklediği için diğer 4 parametreyi (Tansiyon vb.) ortalama değerler (72, 23, 94, 0.5) olarak gönderiyoruz.
+    input_data = np.array([[pregnancies, glucose, 72, 23, 94, bmi, 0.5, age]])
+    prediction = model.predict(input_data)
+    
+    st.subheader("Result:")
+    if prediction[0] == 1:
+        st.error("⚠️ High Risk: The model predicts a high probability of Diabetes.")
+    else:
+        st.success("✅ Low Risk: The model predicts a low probability of Diabetes.")
+
+# Footer info
+st.divider()
+st.info("Binary Classification project for final assignment.")
