@@ -1,3 +1,17 @@
+ # Eğitim süreci benzer projelerle paralel olduğu için dökümantasyonu kod içerisine eklenmiştir.
+AI Chatbot Agent
+## Ödev Türü: Doğal Dil İşleme (NLP)
+
+## Kullanılan Algoritma: LLM (Large Language Models) / LangChain
+
+# Project Title: AI Chatbot Agent
+
+# Live Demo: https://huggingface.co/spaces/gorgeusgirl9/AI-Chatbot-Agent
+
+# Assignment: NLP - Conversational AI
+
+#Kullanıcı ile doğal dilde etkileşim kurabilen, bağlamı hatırlayan (context-aware) gelişmiş bir sohbet asistanıdır.
+
 import streamlit as st
 import datetime
 
@@ -41,3 +55,5 @@ if prompt := st.chat_input("Size nasıl yardımcı olabilirim?"):
 
         st.markdown(response)
         st.session_state.messages.append({"role": "assistant", "content": response})
+
+#OpenAI veya açık kaynaklı LLM modelleri entegre edilerek, kullanıcı mesajlarını analiz eden ve anlamlı yanıtlar üreten bir yapı kurulmuştur.
