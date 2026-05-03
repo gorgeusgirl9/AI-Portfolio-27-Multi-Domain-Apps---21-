@@ -1,3 +1,15 @@
+# Eğitim süreci benzer projelerle (Meteorolojik Veri Analizi) paralel olduğu için dökümantasyonu kod içerisine eklenmiştir.
+# Weather Analysis
+## Ödev Türü: Çevresel Veri Analizi ve Hava Durumu Tahmini
+
+## Kullanılan Algoritma: Random Forest Regressor / Regression Analysis
+
+# Project Title: Weather Analysis
+# Live Demo: https://huggingface.co/spaces/gorgeusgirl9/Weather-Analysis
+# Assignment: Regression Analysis - Science
+
+# Tarihsel hava durumu verilerini (sıcaklık, nem, basınç) analiz ederek bölgesel hava tahminleri yürüten bir modeldir.
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -28,3 +40,5 @@ col3.metric("Ortalama", f"{np.mean(temperatures):.1f}°C")
 
 st.divider()
 st.write("**Trend Analizi:** Veriler incelendiğinde, bahar mevsimine bağlı olarak sıcaklıklarda yukarı yönlü bir eğilim gözlemlenmektedir.")
+
+# Atmosferik değişkenler arasındaki korelasyonlar incelenerek kısa vadeli hava değişimleri matematiksel olarak modellenmiştir.
