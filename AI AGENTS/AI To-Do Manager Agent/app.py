@@ -1,3 +1,16 @@
+Eğitim süreci benzer projelerle paralel olduğu için dökümantasyonu kod içerisine eklenmiştir.
+# AI To-Do Manager Agent
+## Ödev Türü: Akıllı Verimlilik Uygulamaları (AI Agents)
+
+## Kullanılan Algoritma: NLP / Rule-Based Text Classification
+
+# Project Title: AI To-Do Manager Agent
+# Live Demo: https://huggingface.co/spaces/gorgeusgirl9/AI-To-Do-Manager
+# Assignment: AI Productivity Tools
+
+# Kullanıcının girdiği görevleri analiz ederek önceliklendiren ve kategorize eden bir yardımcı asistandır.
+
+
 import streamlit as st
 
 # Sayfa ayarları
@@ -44,3 +57,5 @@ if st.session_state.todo_list:
 
 st.divider()
 st.caption("Agent Capability: State Management & Interaction")
+
+# Metin analizi yöntemleriyle görevlerin aciliyet durumunu belirler ve kullanıcının verimliliğini artırmak için akıllı öneriler sunar.
