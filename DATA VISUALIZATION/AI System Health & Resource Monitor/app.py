@@ -1,3 +1,14 @@
+# Eğitim süreci benzer projelerle (Tahminleme & Sistem Analizi) paralel olduğu için dökümantasyonu kod içerisine eklenmiştir.
+# AI System Health & Resource Monitor
+## Ödev Türü: Tahminleyici Bakım ve Sistem İzleme
+
+## Kullanılan Algoritma: Time Series Analysis / Regression
+# Project Title: AI System Health & Resource Monitor
+# Live Demo: https://huggingface.co/spaces/gorgeusgirl9/AI-System-Monitor
+# Assignment: Predictive Maintenance - Analytics
+
+# Bilgisayar sistem kaynaklarının (CPU, RAM, Disk) kullanımını izleyen ve yapay zeka ile olası darboğazları tahmin eden bir monitördür.
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -55,3 +66,5 @@ for _ in range(100): # Simülasyon için 100 adım
         st.plotly_chart(fig, use_container_width=True)
         
     time.sleep(update_speed)
+
+# Geçmiş kullanım verileri üzerinden regresyon analizi yaparak sistem sağlığı hakkında proaktif uyarılar üretir.
