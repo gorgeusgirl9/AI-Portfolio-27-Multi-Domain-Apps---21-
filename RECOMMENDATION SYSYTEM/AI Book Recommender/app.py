@@ -1,3 +1,15 @@
+# Eğitim süreci benzer projelerle (Öneri Sistemleri & NLP) paralel olduğu için dökümantasyonu kod içerisine eklenmiştir.
+# AI Book Recommender
+## Ödev Türü: Öneri Sistemleri (Recommendation Systems)
+
+## Kullanılan Algoritma: Content-Based Filtering / Cosine Similarity
+
+# Project Title: AI Book Recommender
+# Live Demo: https://huggingface.co/spaces/gorgeusgirl9/AI-Book-Recommender
+# Assignment: Unsupervised Learning - Recommendation
+
+# Kullanıcıların okuma tercihlerine ve kitap türlerine göre kişiselleştirilmiş kitap önerileri sunan bir yapay zeka modelidir.
+
 import streamlit as st
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -34,3 +46,5 @@ if st.button("Benzer Kitap Öner ✨"):
     st.subheader("Bunu sevenler bunları da okudu:")
     for i in scores:
         st.success(f"📖 **{df['Kitap_Adi'].iloc[i[0]]}** (Benzerlik: %{i[1]*100:.1f})")
+
+# Kitap özetleri ve tür bilgileri vektörize edilerek, kullanıcı ilgi alanına en yakın içerikler matematiksel benzerlik skorlarına göre listelenir.
