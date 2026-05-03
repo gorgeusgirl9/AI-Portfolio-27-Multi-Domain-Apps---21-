@@ -1,3 +1,13 @@
+# Eğitim süreci benzer projelerle (Utility AI & Fonksiyonel Modelleme) paralel olduğu için dökümantasyonu kod içerisine eklenmiştir.
+# AI Unit Converter
+## Ödev Türü: Fonksiyonel Yapay Zeka Uygulamaları (Utility AI)
+# Project Title: AI Unit Converter
+# Live Demo: https://huggingface.co/spaces/gorgeusgirl9/AI-Unit-Converter
+# Assignment: Utility AI Applications
+
+# Farklı ölçü birimleri arasında akıllı dönüşüm sağlayan, kullanıcı girdisine göre en uygun formülü uygulayan bir araçtır.
+
+
 import streamlit as st
 
 st.set_page_config(page_title="AI Unit Converter", page_icon="⚖️")
@@ -29,3 +39,5 @@ if st.button("Dönüştür ✨"):
 
 st.divider()
 st.caption("Agent Capability: Mathematical Reasoning & Unit Transformation")
+
+# Karmaşık birim sistemlerini tanıma ve matematiksel modelleme prensipleri üzerine inşa edilmiştir.
