@@ -1,3 +1,15 @@
+# Eğitim süreci benzer projelerle (NLP & Text Processing) paralel olduğu için dökümantasyonu kod içerisine eklenmiştir.
+# AI Text Summarizer
+## Ödev Türü: Doğal Dil İşleme (NLP) - Metin Özetleme
+
+## Kullanılan Algoritma: Transformers / BART veya T5 (Text-to-Text Transfer Transformer)
+
+# Project Title: AI Text Summarizer
+# Live Demo: https://huggingface.co/spaces/gorgeusgirl9/AI-Text-Summarizer
+# Assignment: NLP - Abstractive Summarization
+
+# Uzun metinleri analiz ederek anlam kaybı olmadan kısa ve öz özetler çıkaran bir yapay zeka modelidir.
+
 import streamlit as st
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
@@ -43,3 +55,6 @@ if st.button("Özetle"):
         st.warning("Lütfen bir metin girin!")
 
 st.caption("21-Project Portfolio - NLP Final")
+
+# Dilin semantik yapısını anlayan derin öğrenme mimarileri kullanılarak, metnin ana fikri otomatik olarak tespit edilir.
+
