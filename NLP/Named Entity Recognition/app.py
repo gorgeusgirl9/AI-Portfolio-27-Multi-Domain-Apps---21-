@@ -1,3 +1,15 @@
+# Eğitim süreci benzer projelerle (NLP & Metin Madenciliği) paralel olduğu için dökümantasyonu kod içerisine eklenmiştir.
+# Named Entity Recognition (NER)
+## Ödev Türü: Doğal Dil İşleme (NLP)
+
+## Kullanılan Algoritma: spaCy (CNN/Transformer tabanlı) / BERT
+
+# Project Title: Named Entity Recognition
+# Live Demo: https://huggingface.co/spaces/gorgeusgirl9/NER-Project
+# Assignment: NLP - Entity Extraction
+
+# Metin içerisindeki kişi, kurum, yer, tarih gibi özel isimleri (entity) otomatik olarak tespit eden ve sınıflandıran bir modeldir.
+
 import streamlit as st
 from transformers import pipeline
 
@@ -30,3 +42,5 @@ if st.button("Extract Entities"):
         st.warning("No entities found.")
 
 st.caption("21-Project Portfolio - NLP Final")
+
+# Gelişmiş dil modelleri kullanılarak metnin anlamsal yapısı çözümlenmiş ve bilgi çıkarımı (information extraction) süreci optimize edilmiştir.
