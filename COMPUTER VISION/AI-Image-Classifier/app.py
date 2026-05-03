@@ -1,3 +1,14 @@
+# Eğitim süreci benzer projelerle (CNN & Görüntü Sınıflandırma) paralel olduğu için dökümantasyonu kod içerisine eklenmiştir.
+# AI-Image-Classifier
+## Ödev Türü: Bilgisayarlı Görü (Computer Vision)
+
+## Kullanılan Algoritma: Convolutional Neural Networks (CNN) / MobileNet
+# Project Title: AI-Image-Classifier
+# Live Demo: https://huggingface.co/spaces/gorgeusgirl9/AI-Image-Classifier
+# Assignment: Computer Vision - Image Classification
+
+# Giriş olarak verilen görselleri önceden tanımlanmış kategorilere göre sınıflandıran bir yapay zeka modelidir.
+
 import streamlit as st
 from transformers import pipeline
 from PIL import Image
@@ -34,3 +45,5 @@ except Exception as e:
     st.error(f"Bir hata oluştu: {e}")
 
 st.caption("21-Project Portfolio - Computer Vision")
+
+# Piksel verileri üzerinden öznitelik çıkarımı (feature extraction) yaparak nesne kategorizasyonu sağlar.
