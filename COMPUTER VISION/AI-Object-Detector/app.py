@@ -1,3 +1,12 @@
+# Eğitim süreci benzer projelerle (Object Detection & Derin Öğrenme) paralel olduğu için dökümantasyonu kod içerisine eklenmiştir.
+# AI-Object-Detector
+## Ödev Türü: Bilgisayarlı Görü (Computer Vision)
+# Project Title: AI-Object-Detector
+# Live Demo: https://huggingface.co/spaces/gorgeusgirl9/AI-Object-Detector
+# Assignment: Computer Vision - Object Detection
+
+# Görüntü veya video akışı üzerindeki nesneleri gerçek zamanlı olarak tespit eden ve etiketleyen bir modeldir.
+
 import streamlit as st
 from transformers import pipeline
 from PIL import Image, ImageDraw
@@ -45,3 +54,5 @@ if uploaded_file is not None:
                 st.write(f"- ✅ **{res['label'].capitalize()}** (Güven: %{res['score']*100:.1f})")
 
 st.caption("21-Project Portfolio - Computer Vision Project 14")
+
+# Nesnelerin konumlarını bounding box (sınırlayıcı kutu) ile belirleyerek yüksek doğrulukta tanıma işlemi yapar.
