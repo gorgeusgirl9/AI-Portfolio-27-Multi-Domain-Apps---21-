@@ -1,3 +1,14 @@
+# Eğitim süreci benzer projelerle (İş Analitiği & Tahminleme) paralel olduğu için dökümantasyonu kod içerisine eklenmiştir.
+# Sales_Forecast
+## Ödev Türü: Satış Tahminleme ve Stok Yönetimi
+
+## Kullanılan Algoritma: XGBoost / Prophet
+# Project Title: Sales Forecast
+# Live Demo: https://huggingface.co/spaces/gorgeusgirl9/Sales-Forecast
+# Assignment: Predictive Analytics - Business
+
+# İşletmelerin geçmiş satış verilerini kullanarak gelecek dönemdeki talep miktarını öngören bir analitik aracıdır.
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -29,3 +40,5 @@ if st.button("Eylül Ayı Tahminini Oluştur"):
 
 st.divider()
 st.caption("Model: Simple Trend Analysis Agent")
+
+# Mevsimsellik ve trend analizleri yapılarak, stok optimizasyonu ve satış stratejileri için veri odaklı tahminler sunulur.
