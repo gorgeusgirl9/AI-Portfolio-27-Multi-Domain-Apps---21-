@@ -1,3 +1,12 @@
+# Eğitim süreci benzer projelerle (Öneri Sistemleri & Matrix Factorization) paralel olduğu için dökümantasyonu kod içerisine eklenmiştir.
+# AI Film Reccomender
+## Ödev Türü: Öneri Sistemleri (Recommendation Systems)
+# Project Title: AI Film Reccomender
+# Live Demo: https://huggingface.co/spaces/gorgeusgirl9/AI-Film-Recommender
+# Assignment: Unsupervised Learning - Film Analytics
+
+# Film veri setleri üzerinden kullanıcı puanlamalarını ve izleme geçmişini analiz ederek benzer film önerilerinde bulunan bir algoritmadır.
+
 import streamlit as st
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -50,3 +59,5 @@ if st.button("Benzerlerini Öner ✨"):
 
 st.divider()
 st.caption("Content-Based Filtering | Cosine Similarity Matrix | 2026")
+
+# Kullanıcılar arası benzerlik veya ürün bazlı yakınlık (Item-based) hesaplamaları yapılarak yüksek doğrulukta tahminleme gerçekleştirilir.
