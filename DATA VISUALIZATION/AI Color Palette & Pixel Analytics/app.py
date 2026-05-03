@@ -1,3 +1,15 @@
+# Eğitim süreci benzer projelerle paralel olduğu için dökümantasyonu kod içerisine eklenmiştir.
+# AI Color Palette & Pixel Analytics
+## Ödev Türü: Görüntü İşleme ve Renk Analitiği
+
+## Kullanılan Algoritma: K-Means Clustering 
+
+# Project Title: AI Color Palette & Pixel Analytics
+# Live Demo: https://huggingface.co/spaces/gorgeusgirl9/AI-Color-Palette
+# Assignment: Computer Vision - Analytics
+
+# Yüklenen görsellerdeki baskın renkleri tespit eden ve piksel bazlı renk dağılımı analizi yapan bir araçtır.
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -89,3 +101,5 @@ else:
 
 st.divider()
 st.caption("30-Project Portfolio | Data Visualization & Image Analytics | 2026")
+
+# K-Means algoritması kullanılarak renkler kümelenmiş ve tasarımcılar için uyumlu renk paletleri otomatik olarak oluşturulmuştur.
