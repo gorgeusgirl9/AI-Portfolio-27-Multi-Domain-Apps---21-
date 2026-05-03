@@ -1,5 +1,5 @@
  # Eğitim süreci benzer projelerle paralel olduğu için dökümantasyonu kod içerisine eklenmiştir.
-AI Chatbot Agent
+# AI Chatbot Agent
 ## Ödev Türü: Doğal Dil İşleme (NLP)
 
 ## Kullanılan Algoritma: LLM (Large Language Models) / LangChain
@@ -56,4 +56,4 @@ if prompt := st.chat_input("Size nasıl yardımcı olabilirim?"):
         st.markdown(response)
         st.session_state.messages.append({"role": "assistant", "content": response})
 
-#OpenAI veya açık kaynaklı LLM modelleri entegre edilerek, kullanıcı mesajlarını analiz eden ve anlamlı yanıtlar üreten bir yapı kurulmuştur.
+# OpenAI veya açık kaynaklı LLM modelleri entegre edilerek, kullanıcı mesajlarını analiz eden ve anlamlı yanıtlar üreten bir yapı kurulmuştur.
