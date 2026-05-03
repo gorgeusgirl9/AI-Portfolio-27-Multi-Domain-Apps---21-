@@ -1,3 +1,12 @@
+# Eğitim süreci benzer projelerle (Computer Vision & Derin Öğrenme) paralel olduğu için dökümantasyonu kod içerisine eklenmiştir.
+# AI-Face-Analyzer
+## Ödev Türü: Bilgisayarlı Görü (Computer Vision)
+# Project Title: AI-Face-Analyzer
+# Live Demo: https://huggingface.co/spaces/gorgeusgirl9/AI-Face-Analyzer
+# Assignment: Computer Vision - Facial Analysis
+
+# Görüntü üzerindeki insan yüzlerini tespit eden ve temel yüz hatlarını analiz eden bir derin öğrenme uygulamasıdır.
+
 import streamlit as st
 from deepface import DeepFace
 from PIL import Image
@@ -56,3 +65,5 @@ if uploaded_file is not None:
                 st.info("İpucu: Yüzün net göründüğü, çok büyük olmayan bir fotoğraf deneyin.")
 
 st.caption("21-Project Portfolio - Computer Vision Final")
+
+# Yüz tanıma ve özellik çıkarımı algoritmaları kullanılarak, görsel veriden biyometrik bilgi tespiti gerçekleştirilir.
