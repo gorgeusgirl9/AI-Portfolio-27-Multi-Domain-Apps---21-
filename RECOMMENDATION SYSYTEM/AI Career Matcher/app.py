@@ -1,3 +1,15 @@
+# Eğitim süreci benzer projelerle (Sınıflandırma & Veri Analitiği) paralel olduğu için dökümantasyonu kod içerisine eklenmiştir.
+# AI Career Matcher
+## Ödev Türü: Kariyer Danışmanlığı ve Eşleştirme (Decision Support)
+
+## Kullanılan Algoritma: Random Forest / Support Vector Machines (SVM)
+
+# Project Title: AI Career Matcher
+# Live Demo: https://huggingface.co/spaces/gorgeusgirl9/AI-Career-Matcher
+# Assignment: Classification - Career Analytics
+
+# Kullanıcı yetkinliklerini, ilgi alanlarını ve eğitim geçmişini analiz ederek en uygun meslek gruplarıyla eşleştiren bir karar destek sistemidir.
+
 import streamlit as st
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -51,3 +63,5 @@ if st.button("Uygun Mesleği Tahmin Et 🔍"):
                 st.info("Bilgi: Yemek kitapları ve tarifler konusundaki ilginiz sizi mutfağa yönlendirdi!")
         else:
             st.error("Üzgünüm, girdiğiniz kelimeyle bir eşleşme bulamadım. Lütfen 'kod', 'yemek', 'tasarım' gibi kelimeler deneyin.")
+
+# Büyük veri setleri üzerinde eğitilen model, iş gücü piyasası trendlerini ve yetenek gereksinimlerini baz alarak kişiye özel kariyer rotaları oluşturur.
