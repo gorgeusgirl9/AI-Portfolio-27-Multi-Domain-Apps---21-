@@ -1,3 +1,15 @@
+# Eğitim süreci benzer projelerle (İş Zekası & Veri Analitiği) paralel olduğu için dökümantasyonu kod içerisine eklenmiştir.
+# AI_Global_SaaS_Subscription_Dashboard
+## Ödev Türü: İş Zekası ve Tahminleyici Analitik (Business Intelligence)
+
+## Kullanılan Algoritma: Random Forest / Linear Regression (Churn Prediction)
+
+# Project Title: AI Global SaaS Subscription Dashboard
+# Live Demo: https://huggingface.co/spaces/gorgeusgirl9/AI-SaaS-Dashboard
+# Assignment: Business Intelligence - Data Analytics
+
+# Küresel ölçekteki SaaS abonelik verilerini görselleştiren ve müşteri kaybını (churn) tahmin eden bir yönetim panelidir.
+
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -32,3 +44,5 @@ with col2:
 
 st.divider()
 st.caption("30-Project Portfolio - Business Intelligence Series")
+
+# Veri madenciliği teknikleri kullanılarak kullanıcı davranışları analiz edilmiş ve işletme için stratejik içgörüler sunulmuştur.
